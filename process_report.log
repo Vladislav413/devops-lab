@@ -1,0 +1,16 @@
+=== Отчет по процессам за Thu Sep  3 14:06:06 UTC 2026 ===
+--- Топ-5 процессов по CPU ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.1   3180  2212 hvc0     Sl+  13:58   0:01 /init
+root           6  0.0  0.1   3180  2044 hvc0     Sl+  13:58   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root           9  0.0  0.0   3188  1096 ?        Ss   13:58   0:00 /init
+root          10  0.0  0.0   3204  1236 ?        S    13:58   0:00 /init
+root          11  0.0  0.2   5052  4148 pts/0    Ss   13:58   0:00 -bash
+--- Топ-5 процессов по RAM ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          11  0.0  0.2   5052  4148 pts/0    Ss   13:58   0:00 -bash
+root          23  0.0  0.2   4920  3732 pts/0    S+   14:06   0:00 /bin/bash ./process_report.sh
+root          27  0.0  0.1   7488  3308 pts/0    R+   14:06   0:00 ps aux --sort=-%mem
+root           1  0.3  0.1   3180  2212 hvc0     Sl+  13:58   0:01 /init
+root           6  0.0  0.1   3180  2044 hvc0     Sl+  13:58   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+
